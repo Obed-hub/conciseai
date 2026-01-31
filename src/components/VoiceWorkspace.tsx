@@ -1,6 +1,6 @@
 import { ArrowDown, Mic, Square, FileText } from 'lucide-react';
 import { useState } from 'react';
-import { groqService } from '@/services/groqService';
+import { groqService } from '@/services/groqClientService';
 
 interface VoiceWorkspaceProps {
   isOpen: boolean;

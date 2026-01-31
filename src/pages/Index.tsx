@@ -7,7 +7,7 @@ import VoiceWorkspace from '@/components/VoiceWorkspace';
 import QuerySuggestions from '@/components/QuerySuggestions';
 import AppSidebar from '@/components/AppSidebar';
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
-import { groqService } from '@/services/groqService';
+import { groqService } from '@/services/groqClientService';
 
 import * as pdfjsLib from 'pdfjs-dist';
 
